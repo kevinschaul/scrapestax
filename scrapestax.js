@@ -6,7 +6,7 @@ var fs = require('fs');
 var jquery = fs.readFileSync('./jquery.js', 'utf-8');
 
 var argv = optimist
-    .usage('Usage: node haystax-scrape.js URL [options]')
+    .usage('Usage: node scrapestax.js URL [options]')
     .options('s', {
         alias: 'selector',
         describe: 'jQuery selector'
